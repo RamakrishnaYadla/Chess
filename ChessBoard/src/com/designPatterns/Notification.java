@@ -1,16 +1,17 @@
 package com.designPatterns;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 import chess.Board.ChessCoins;
 
 public class Notification implements CoinState{
 
-	private ArrayList<ChessCoins> coins;
+	private LinkedList<ChessCoins> coins;
 	private ArrayList<Observer> Obs;
 	
 	public Notification() {
-		coins = new ArrayList();
+		coins = new LinkedList<ChessCoins>();
 		Obs = new ArrayList();
 	}
 	
