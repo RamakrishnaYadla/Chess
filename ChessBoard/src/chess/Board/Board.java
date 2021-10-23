@@ -91,7 +91,7 @@ public class Board {
 		
 		JFrame jf = new JFrame();
 		jf.setBounds(10, 50, 560, 560);
-		jf.setUndecorated(true); // To disable frame border -- To avoid cells partial view
+		jf.setUndecorated(true); // To disable frame border -- To avoid partial view
 		JPanel jp = new JPanel() {
 			@Override
 			public void paint(Graphics g) {
