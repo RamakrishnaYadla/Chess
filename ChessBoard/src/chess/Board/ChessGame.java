@@ -1,6 +1,5 @@
 package chess.Board;
 
-import java.awt.Image;
 import java.io.IOException;
 
 public class ChessGame {
