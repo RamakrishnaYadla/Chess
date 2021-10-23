@@ -48,7 +48,7 @@ public class Board {
 			while (j.hasNext()) {
 				Object obj = j.next();
 				String desc =(String)obj;
-				System.out.println("MousePad : "+type +" : "+desc);
+				System.out.println("Coins : "+type +" : "+desc);
 				break;
 			}
 		}
